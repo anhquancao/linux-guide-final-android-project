@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guide_download1" />
+    
+
+    <Button
+        android:id="@+id/btn_large"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Large Image" />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guide_download2" />
+
+    <Button
+        android:id="@+id/btn_small"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Small Image" />
+
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guide_download3" />
+    
+    <Button
+        android:id="@+id/btn_core"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Core Image" />
+
+</LinearLayout>

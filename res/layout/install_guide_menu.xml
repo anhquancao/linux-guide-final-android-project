@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_version" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu_type" />
+
+        <TextView
+            android:id="@+id/cpu_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_ubuntu_13_04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ubuntu"
+        android:text="@string/ubuntu1304" />
+
+    <Button
+        android:id="@+id/button_ubuntu_13_10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ubuntu"
+        android:text="@string/ubuntu1310" />
+
+    <Button
+        android:id="@+id/button_Debian"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/debian"
+        android:text="@string/debian" />
+
+    <Button
+        android:id="@+id/button_Debian_testing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/debiantest"
+        android:text="@string/debian_testing" />
+
+    <Button
+        android:id="@+id/button_Archlinux"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/archlinux"
+        android:text="@string/archlinux" />
+
+    <Button
+        android:id="@+id/button_KaliLinux"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/kalilinux"
+        android:text="@string/kali_linux" />
+
+    <Button
+        android:id="@+id/button_Fedora19"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/fedora"
+        android:text="@string/fedora" />
+
+    <Button
+        android:id="@+id/button_openSUSE123"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/suse"
+        android:text="@string/openSUSE" />
+
+</LinearLayout>
